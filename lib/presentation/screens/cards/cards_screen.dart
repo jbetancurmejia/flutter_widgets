@@ -171,7 +171,7 @@ class _CardType4 extends StatelessWidget {
                   alignment: Alignment.topRight,
                   child: Container(
                     decoration: const BoxDecoration(
-                      color: Colors.white,
+                      color: Colors.red,
                       borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20))
                     ),
                     child: IconButton(
