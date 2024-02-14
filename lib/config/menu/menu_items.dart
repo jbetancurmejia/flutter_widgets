@@ -35,10 +35,10 @@ const appMenuItems = <MenuItem>[
       link: '/Snackbars',
       icon: Icons.info_outline_rounded),
   MenuItem(
-      title: 'Animaciones',
-      subTitle: 'Animaciones en flutter',
+      title: 'Animated container',
+      subTitle: 'Stateful widget animado',
       link: '/animated',
-      icon: Icons.animation_outlined),
+      icon: Icons.check_box_outline_blank_outlined),
   MenuItem(
       title: 'Tutorial',
       subTitle: 'Tutorial para aplicación',
