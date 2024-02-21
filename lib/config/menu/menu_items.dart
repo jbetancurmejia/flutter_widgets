@@ -45,10 +45,10 @@ const appMenuItems = <MenuItem>[
       link: '/UIcontrols',
       icon: Icons.car_rental_rounded),
   MenuItem(
-      title: 'Tutorial',
-      subTitle: 'Tutorial para aplicación',
-      link: '/animated',
-      icon: Icons.book_online_outlined),
+      title: 'Introducción a la  aplicación',
+      subTitle: 'Pequeño tutorial introductorio',
+      link: '/tutorial',
+      icon: Icons.accessible_rounded),
   MenuItem(
       title: 'Scroll infinito',
       subTitle: 'scroll infinito',
