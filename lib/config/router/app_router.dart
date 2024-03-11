@@ -1,5 +1,7 @@
 import 'package:go_router/go_router.dart';
+import 'package:widgets_app/presentation/screens/counter/counter_screen.dart';
 import 'package:widgets_app/presentation/screens/screens.dart';
+import 'package:widgets_app/presentation/screens/theme_changer/theme_changer_screen.dart';
 
 // GoRouter configuration
 final appRouter = GoRouter(
@@ -34,23 +36,30 @@ final appRouter = GoRouter(
       name: SnackbarScreen.name,
       builder: (context, state) => const SnackbarScreen(),
     ),
-
     GoRoute(
       path: '/UIcontrols',
       name: UIControlsScreen.name,
       builder: (context, state) => const UIControlsScreen(),
     ),
-    
     GoRoute(
       path: '/tutorial',
       name: AppTutorialScreen.name,
       builder: (context, state) => const AppTutorialScreen(),
     ),
-       GoRoute(
+    GoRoute(
       path: '/infinite',
       name: InfiniteScrollScreen.name,
       builder: (context, state) => const InfiniteScrollScreen(),
     ),
-
+    GoRoute(
+      path: '/counter',
+      name: CounterScreen.name,
+      builder: (context, state) => const CounterScreen(),
+    ),
+    GoRoute(
+      path: '/theme-changer',
+      name: ThemeChangerScreen.name,
+      builder: (context, state) => const ThemeChangerScreen(),
+    )
   ],
 );
